@@ -5,7 +5,7 @@ config.steem = {};
 //Global Configuration
 config.steem.username = process.env.STEEM_USER || 'ENTER_USERNAME_HERE';
 config.steem.password =  process.env.STEEM_PASSWORD || 'ENTER_PASSWORD_HERE';
-config.steem.url = 'wss://steemd-int.steemit.com';
+config.steem.url = 'wss://gtg.steem.house:8090';
 config.steem.auth_type = 'owner'; //owner, posting
 
 //delay in milliseconds between each write transaction
